@@ -1,3 +1,3 @@
 install:
-  - FILE="-Dfile=flutter_release-0.0.10.aar"
-  - mvn install:install-file $FILE -DgroupId=com.example.flutter_module -DartifactId=flutter_release -Dpackaging=aar -Dversion=0.0.10 -DgeneratePom=false -DpomFile=pom.xml
+  - FILE="-Dfile=flutter_release-0.0.11.aar"
+  - mvn install:install-file $FILE -DgroupId=com.example.flutter_module -DartifactId=flutter_release -Dpackaging=aar -Dversion=0.0.11 -DgeneratePom=false -DpomFile=flutter_release-0.0.11.pom

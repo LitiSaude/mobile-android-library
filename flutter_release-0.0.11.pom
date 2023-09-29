@@ -10,6 +10,7 @@
   <groupId>com.example.flutter_module</groupId>
   <artifactId>flutter_release</artifactId>
   <version>0.0.11</version>
+  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
