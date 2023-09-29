@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example.flutter_module</groupId>
   <artifactId>flutter_release</artifactId>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
