@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example.flutter_module</groupId>
   <artifactId>flutter_release</artifactId>
-  <version>0.0.17-alpha</version>
+  <version>0.0.18-alpha</version>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
