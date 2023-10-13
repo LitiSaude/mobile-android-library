@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.flutter_module",
+    "module": "flutter_release",
+    "version": "0.0.27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.27"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.27.aar",
+          "url": "flutter_release-0.0.27.aar",
+          "size": 4817370,
+          "sha512": "32e0b0e8a056e9b00de3bce01c12ed88e8d2bc8c923a6a727161f9b1876e68a73a46337cb648857c3b63fe9f91088f8caeb8681f06f9e05769a997c2ac90b554",
+          "sha256": "2c52a1186ee8c0f2d8f119c2f52d12c141f433dcec57c74b99ed8903b353ea62",
+          "sha1": "9f644f8dad61df33517e67d0ffe2032b51e56558",
+          "md5": "aac99aeed9b802a03b6867d0dc550926"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.27"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.27.aar",
+          "url": "flutter_release-0.0.27.aar",
+          "size": 4817370,
+          "sha512": "32e0b0e8a056e9b00de3bce01c12ed88e8d2bc8c923a6a727161f9b1876e68a73a46337cb648857c3b63fe9f91088f8caeb8681f06f9e05769a997c2ac90b554",
+          "sha256": "2c52a1186ee8c0f2d8f119c2f52d12c141f433dcec57c74b99ed8903b353ea62",
+          "sha1": "9f644f8dad61df33517e67d0ffe2032b51e56558",
+          "md5": "aac99aeed9b802a03b6867d0dc550926"
+        }
+      ]
+    }
+  ]
+}
