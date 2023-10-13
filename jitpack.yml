@@ -1,3 +1,0 @@
-install:
-  - FILE="-Dfile=flutter_release-0.0.21.aar"
-  - mvn install:install-file $FILE -DgroupId=com.liti.mobile -DartifactId=flutter_release -Dpackaging=aar -Dversion=0.0.21 -DgeneratePom=false -DpomFile=flutter_release-0.0.21.pom
