@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mixpanel.mixpanel_flutter",
+    "module": "mixpanel_flutter_release",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mixpanel_flutter_release-0.0.23.aar",
+          "url": "mixpanel_flutter_release-0.0.23.aar",
+          "size": 12620,
+          "sha512": "e6f0319528f50238da95893522c444792d996ce3b95aa21c8d13802a2ecd611647789048eba3af4c77a0173c8cf457efa8d019f89615b74d3a616c66322487d5",
+          "sha256": "0c9f5aa322a36d74fa1b8d3041c1a7f985a68a3be73481da3f91f4c8a3902ba9",
+          "sha1": "958a135b5262f98c0a3fef778af56c9f56c23739",
+          "md5": "07f1a0fc82968d47629497dfa243dacb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "com.mixpanel.android",
+          "module": "mixpanel-android",
+          "version": {
+            "requires": "7.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mixpanel_flutter_release-0.0.23.aar",
+          "url": "mixpanel_flutter_release-0.0.23.aar",
+          "size": 12620,
+          "sha512": "e6f0319528f50238da95893522c444792d996ce3b95aa21c8d13802a2ecd611647789048eba3af4c77a0173c8cf457efa8d019f89615b74d3a616c66322487d5",
+          "sha256": "0c9f5aa322a36d74fa1b8d3041c1a7f985a68a3be73481da3f91f4c8a3902ba9",
+          "sha1": "958a135b5262f98c0a3fef778af56c9f56c23739",
+          "md5": "07f1a0fc82968d47629497dfa243dacb"
+        }
+      ]
+    }
+  ]
+}
