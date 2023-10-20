@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liti.mobile",
+    "module": "flutter_release",
+    "version": "0.0.31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sensors",
+          "module": "sensors_plus_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.31.aar",
+          "url": "flutter_release-0.0.31.aar",
+          "size": 7546949,
+          "sha512": "f3df4c97902294a324beb9ab7e363b91c22ab89a0e54e1d140619cc9365d411baf27bc9a7da1a89b6633f4c7125f4b1aa9b0feb4198758185967ec4bf2664ed4",
+          "sha256": "0ce7445a2e5843c8c99cbfb44a18e9871c5cf357ca6c409966e2baf09f1889b6",
+          "sha1": "ccd3acac069fbd24ff52aeda6ba69ab4259990b4",
+          "md5": "fb546c4c8ea8aa7840bb162365768c35"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sensors",
+          "module": "sensors_plus_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage_release",
+          "version": {
+            "requires": "0.0.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.31.aar",
+          "url": "flutter_release-0.0.31.aar",
+          "size": 7546949,
+          "sha512": "f3df4c97902294a324beb9ab7e363b91c22ab89a0e54e1d140619cc9365d411baf27bc9a7da1a89b6633f4c7125f4b1aa9b0feb4198758185967ec4bf2664ed4",
+          "sha256": "0ce7445a2e5843c8c99cbfb44a18e9871c5cf357ca6c409966e2baf09f1889b6",
+          "sha1": "ccd3acac069fbd24ff52aeda6ba69ab4259990b4",
+          "md5": "fb546c4c8ea8aa7840bb162365768c35"
+        }
+      ]
+    }
+  ]
+}
