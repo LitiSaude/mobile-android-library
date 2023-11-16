@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_release",
+    "version": "0.0.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.32.aar",
+          "url": "sqflite_release-0.0.32.aar",
+          "size": 45709,
+          "sha512": "d65308828ca617d7fa86ed15b650855c6f4142ebc6c393786ec1055ef8c1f6f886e84212e0e2cdc245a6798a6cd7142480d9e369d7b5050506c94956a15510b2",
+          "sha256": "cc8e0c0030d70efc1737fd74a2b2bf60fb45008b2dd85086d43cf59cad1016e6",
+          "sha1": "9e11c6bd47da250f5225ca8e7994f080e0c539a3",
+          "md5": "c766596459d5f40c81a004863b339593"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.32.aar",
+          "url": "sqflite_release-0.0.32.aar",
+          "size": 45709,
+          "sha512": "d65308828ca617d7fa86ed15b650855c6f4142ebc6c393786ec1055ef8c1f6f886e84212e0e2cdc245a6798a6cd7142480d9e369d7b5050506c94956a15510b2",
+          "sha256": "cc8e0c0030d70efc1737fd74a2b2bf60fb45008b2dd85086d43cf59cad1016e6",
+          "sha1": "9e11c6bd47da250f5225ca8e7994f080e0c539a3",
+          "md5": "c766596459d5f40c81a004863b339593"
+        }
+      ]
+    }
+  ]
+}

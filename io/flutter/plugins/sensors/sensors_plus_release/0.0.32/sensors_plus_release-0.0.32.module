@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.sensors",
+    "module": "sensors_plus_release",
+    "version": "0.0.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sensors_plus_release-0.0.32.aar",
+          "url": "sensors_plus_release-0.0.32.aar",
+          "size": 9957,
+          "sha512": "ea72eb41f06b93317a58f9be2f8b602328af3c19c30dcd3b86ab22b77fc5da98f4027d6162085aad71abd37e821ab6ccc91fcf6f4b9a4ef4a5a4f1dc098aea70",
+          "sha256": "feb436bf99eacbc35c41062798d02aa73c65c09e65433dbf080b35555d510368",
+          "sha1": "099f566a7c8e3f0b09aa6fa7d5d5f2ce3ed905df",
+          "md5": "272103ee4caf2570448759a527f66f2a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sensors_plus_release-0.0.32.aar",
+          "url": "sensors_plus_release-0.0.32.aar",
+          "size": 9957,
+          "sha512": "ea72eb41f06b93317a58f9be2f8b602328af3c19c30dcd3b86ab22b77fc5da98f4027d6162085aad71abd37e821ab6ccc91fcf6f4b9a4ef4a5a4f1dc098aea70",
+          "sha256": "feb436bf99eacbc35c41062798d02aa73c65c09e65433dbf080b35555d510368",
+          "sha1": "099f566a7c8e3f0b09aa6fa7d5d5f2ce3ed905df",
+          "md5": "272103ee4caf2570448759a527f66f2a"
+        }
+      ]
+    }
+  ]
+}
