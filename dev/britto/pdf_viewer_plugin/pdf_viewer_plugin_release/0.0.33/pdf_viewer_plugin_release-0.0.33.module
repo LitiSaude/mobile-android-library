@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.britto.pdf_viewer_plugin",
+    "module": "pdf_viewer_plugin_release",
+    "version": "0.0.33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdf_viewer_plugin_release-0.0.33.aar",
+          "url": "pdf_viewer_plugin_release-0.0.33.aar",
+          "size": 17324,
+          "sha512": "2b010188c091ec1b2373e94f6f90d7ae89b911246bdd6bd65c65d1b18327ef14212d1733ed73bd973315a7209fd9ff8976cc566750245e0c1bee6265e727f800",
+          "sha256": "f45734d007bcf5d439a9b61c1c132133926c7fad781bda758eb6b2fcd2d5b7c7",
+          "sha1": "5b081902831a420846d9605e54a40f432d1c59fe",
+          "md5": "5d8e2f7d69a768dc9d82228e9f183a97"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.barteksc",
+          "module": "android-pdf-viewer",
+          "version": {
+            "requires": "3.0.0-beta.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdf_viewer_plugin_release-0.0.33.aar",
+          "url": "pdf_viewer_plugin_release-0.0.33.aar",
+          "size": 17324,
+          "sha512": "2b010188c091ec1b2373e94f6f90d7ae89b911246bdd6bd65c65d1b18327ef14212d1733ed73bd973315a7209fd9ff8976cc566750245e0c1bee6265e727f800",
+          "sha256": "f45734d007bcf5d439a9b61c1c132133926c7fad781bda758eb6b2fcd2d5b7c7",
+          "sha1": "5b081902831a420846d9605e54a40f432d1c59fe",
+          "md5": "5d8e2f7d69a768dc9d82228e9f183a97"
+        }
+      ]
+    }
+  ]
+}
