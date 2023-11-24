@@ -37,14 +37,14 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>dev.britto.pdf_viewer_plugin</groupId>
-      <artifactId>pdf_viewer_plugin_release</artifactId>
+      <groupId>io.flutter.plugins.sharedpreferences</groupId>
+      <artifactId>shared_preferences_android_release</artifactId>
       <version>0.0.33</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.sharedpreferences</groupId>
-      <artifactId>shared_preferences_android_release</artifactId>
+      <groupId>io.endigo.plugings.pdfview</groupId>
+      <artifactId>flutter_pdfview_release</artifactId>
       <version>0.0.33</version>
       <scope>compile</scope>
     </dependency>
