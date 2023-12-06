@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liti.mobile",
+    "module": "flutter_release",
+    "version": "0.0.37",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.endigo.plugings.pdfview",
+          "module": "flutter_pdfview_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sensors",
+          "module": "sensors_plus_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.37.aar",
+          "url": "flutter_release-0.0.37.aar",
+          "size": 11160578,
+          "sha512": "0cbcc9cd592a615a03f614b7c30004e0e74e280f0016cd66c0f559d37576738be506b07ec6678924c3cd88ae47379f27779af3f4efe55ca41b283c42bc7e10f6",
+          "sha256": "d3f726a8fb228f62803062423d1875d7400bb3ff9de24051951d6d19710c3e62",
+          "sha1": "9f761f74471cc6907e67be2692408c076369e395",
+          "md5": "b2fc09a4c3ac48c641f1671d3d59c1be"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.endigo.plugings.pdfview",
+          "module": "flutter_pdfview_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sensors",
+          "module": "sensors_plus_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.instabug.flutter",
+          "module": "instabug_flutter_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "0.0.37"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-0.0.37.aar",
+          "url": "flutter_release-0.0.37.aar",
+          "size": 11160578,
+          "sha512": "0cbcc9cd592a615a03f614b7c30004e0e74e280f0016cd66c0f559d37576738be506b07ec6678924c3cd88ae47379f27779af3f4efe55ca41b283c42bc7e10f6",
+          "sha256": "d3f726a8fb228f62803062423d1875d7400bb3ff9de24051951d6d19710c3e62",
+          "sha1": "9f761f74471cc6907e67be2692408c076369e395",
+          "md5": "b2fc09a4c3ac48c641f1671d3d59c1be"
+        }
+      ]
+    }
+  ]
+}
